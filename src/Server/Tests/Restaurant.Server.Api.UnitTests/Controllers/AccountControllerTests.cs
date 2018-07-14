@@ -1,14 +1,13 @@
 ﻿using System.Security.Claims;
 using System.Threading.Tasks;
-using AutoFixture.Xunit2;
 using FluentAssertions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Restaurant.Common.DataTransferObjects;
-using Restaurant.Server.Abstraction.Facades;
+using Restaurant.Server.Api.Abstraction.Facades;
 using Restaurant.Server.Api.Controllers;
-using Restaurant.Server.Models;
+using Restaurant.Server.Api.Models;
 using Xunit;
 
 namespace Restaurant.Server.Api.UnitTests.Controllers
